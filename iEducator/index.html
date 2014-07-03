@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <title>MyClicker.ca</title>
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="dist/js/bootstrap.min.js"></script>
+    <script src="js/check-username.js"></script>
+    
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="dist/css/bootstrap.min.css">
+     <link rel="stylesheet" href="css/childBootStrap.css">
+
+
+    <!-- Custom styles for this template jumbotron -->
+   
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+     
+    <![endif]-->
+    
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">My Clicker Instructor Login</a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <form class="navbar-form navbar-right"  action="login_exe.php" method="post">
+               
+            <div class="form-group">
+              <input type="text" name="username" placeholder="Email" class="form-control">
+              
+            </div>
+            <div class="form-group">
+              <input type="password" name="password" placeholder="Password" class="form-control">
+               
+            </div>
+              <button type="submit" class="btn btn-success" name="submit">Sign in</button>
+          </form>
+        </div><!--/.navbar-collapse -->
+      </div>
+    </div>
+
+    <!-- Main jumbotron for a primary marketing message or call to action -->
+    <div class="jumbotron">
+      <div class="container">
+        <h1><img src="logoInv.png" class="logo"> Welcome to My Clicker</h1>
+        <p>Instructors login at the top right corner to begin multiple choice question sessions.<p>
+        <p>If you need to register first, please email a request to <a>salma@kewltechnologies.ca</a> </p>
+        <h2>Purpose</h2>
+        <p>
+        <ul>
+            <ul>  
+                <b>MyClicker :</b>
+<li>	For instructors to gauge their class in real-time
+<li>	For students become active participants in class.
+MyClicker is a response application for educators. It allows educators to use their preferred tools and methods to teach their students, such as PowerPoint, Keynotes, overhead projector, even a black board. That is, the educator does not have to type in their questions, and multiple choice answer again on MyClicker system.
+<p><b>Educators: </b>
+<li>	login to MyClicker
+<li>	Ask the students to download the myClicker app from http://myclicker.ca/download, or Students can access it over any browser at http://myclicker.ca/
+<li>	Ask the students to click on your course on their homepage. 
+<li>	Educators ready to begin   
+    <ul>
+<li>Click Start Button before each question. Students will receive a session id so that they can respond to your question
+</ul><li>	Students must wait for you to send/broadcast the session id before responding with A B C D options.
+<li>	View results of students' choices as a chart on the instructor's start page.
+
+        </ul>
+        </ul>
+        <h2>Demo</h2>
+        <p>Username: demo@hammer.com</p>
+        <p>Password demo.2014</p>
+        
+        <p>Student web page can be found at <a href='http://myclicker.ca'>http://myclicker.ca/</a></p> or 
+        download the Android app on your tablet or phone at <a href='http://myclicker.ca/download/android.apk'>http://myclicker.ca/download/android.apk</a>
+        
+       
+      </div>
+    </div>
+    <script>
+       $(document).ready(function() {
+        
+        var is_IE = navigator.userAgent.toLowerCase().indexOf('msie') > -1;
+        if (is_IE)
+            alert('You can only view this page with the latest version of Chrome, Firefox, Safari. Please download and try again'+navigator.userAgent.toLowerCase());
+ 
+        function getUrlVars(){
+     
+            var vars = [], hash;vars['ch'] =  "mychannel";
+            var hashes = window.location.href.slice(window.location.href.indexOf('?') + 1).split('&');
+            for(var i = 0; i < hashes.length; i++)
+            {
+                hash = hashes[i].split('=');
+                vars.push(hash[0]);
+                vars[hash[0]] = hash[1];
+            }
+
+            return vars;
+
+        }
+        //show login password error message
+        if (getUrlVars()['err'] == 1)
+            alert('login incorrect, try again');$(document).ready(function() {
+        
+        // show table when click connect button
+        $('#showme').click(function() {
+                $('.row').toggle("slide");
+        });
+    });
+          
+    </script>
+    
+    <div class="container">
+      <!-- Example row of columns -->
+      <div class="row"  style="display: none;">
+        <div class="col-md-4">
+          <h2>Phar 352: Therapeutics II</h2>
+          <p>Principles of Infectious Diseases, Disease Causing Pathogens, Therapeutics of Pneumonia, Therapeutics of Meningitis, Therapeutics of Tuberculosis, Therapeutics of Parasites/ Malaria, Therapeutics of Systemic Fungal Infections, Therapeutics of Sexually Transmitted Infections</p>
+          <p><a class="btn btn-default" href="answerForm.html?ch=mychannel" role="button">Connect</a></p>
+        </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+       </div>
+        <div class="col-md-4">
+          <h2>Heading</h2>
+          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+        </div>
+      </div>
+      
+      <hr>
+
+      <footer>
+          <p>&copy; Kewl Technologies BC 2014 <a href="#">salma@kewltechnologies.ca</a> <a href="#">604.723.7108</a></p>
+      </footer>
+    </div> <!-- /container -->
+
+
+   
+  </body>
+</html>

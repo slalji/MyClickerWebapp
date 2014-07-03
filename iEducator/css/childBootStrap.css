@@ -1,0 +1,74 @@
+/* 
+ * To change this license header, choose License Headers in Project Properties.
+ * To change this template file, choose Tools | Templates
+ * and open the template in the editor.
+ */
+img[class=logo]{
+    width: 9%;
+}
+ /* Move down content because we have a fixed navbar that is 50px tall */
+body {
+        padding-top: 50px;
+        padding-bottom: 20px;
+}
+.red{
+    color: #C70320;
+}
+.jumbotron {
+    padding-top:10px !important;    
+    padding-bottom: 148px;
+}
+
+input[class=inputsession] {
+  
+  background-color: #ffffcc;
+   
+}
+input {
+  width: 80%;
+  border: 0px;
+  background-color: #ffffff;
+  height: 44px ;
+  margin-bottom: 0px;
+  line-height: 30px;
+  padding: 11px 19px;
+  font-size: 17.5px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+li{
+    list-style-type:none;
+    padding: 10px;
+}
+ 
+.column43 input[type=radio]{
+    display: none !important;
+     
+}
+.column43 input[type=radio]:checked + label {
+    color:  black;
+    font-size: 2em;
+    
+}
+.column43{
+    padding: 10px;
+    display: inline-block; 
+}
+ 
+.column43 .btn{
+    padding: 20px;
+    font-size: 3em;
+}
+.session .btn{
+    width:13%;
+    font-size: 1em;
+}
+.btn{
+    padding-bottom: 10px;
+}
+
+  
+
+

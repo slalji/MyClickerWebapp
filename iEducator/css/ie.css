@@ -1,0 +1,8 @@
+
+ .button,button-1,.button-2 {
+	behavior:url(js/PIE.htc);
+	position:relative;
+}
+.soc li a .active,.service figure .active  {display:none}
+.soc li a:hover .active,.service figure:hover .active {display:block}
+.box-1 figure{filter:alpha(opacity=70)}

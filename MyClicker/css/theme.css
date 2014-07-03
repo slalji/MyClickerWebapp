@@ -1,0 +1,91 @@
+body {
+  padding-top: 70px;
+  padding-bottom: 30px;
+}
+.red{
+    color:#F1200E;
+   
+}
+.session_msg{
+    color:#F18D0E;
+    background-color: #eee;
+    padding:2px;
+}
+.student_msg{
+    color:#F10E69;
+    background-color: #eee;
+    padding:2px;
+    opacity: 50%;
+}
+
+
+.theme-dropdown .dropdown-menu {
+  position: static;
+  display: block;
+  margin-bottom: 20px;
+}
+
+.theme-showcase > p > .btn {
+  margin: 5px 0;
+}
+
+input[class=inputsession] {
+  
+  background-color: cornsilk;
+   
+}
+input {
+  width: 100%;
+  border: 0px;
+  background-color: whitesmoke;
+  height: 100% ;
+  margin-bottom: 10px;
+  line-height: 30px;
+  padding: 11px 19px;
+  font-size: 17.5px;
+  -webkit-border-radius: 6px;
+     -moz-border-radius: 6px;
+          border-radius: 6px;
+}
+
+li{
+    list-style-type:none;
+    padding: 10px;
+}
+
+.row43{
+    width: 90%;
+}
+ 
+.column43 input[type=radio]{
+    display: none !important;
+     
+}
+.column43 input[type=radio]:checked + label {
+    color:  black;
+    font-size: 2em;
+    
+}
+.column43{
+    padding: 10px;
+    display: inline-block; 
+}
+ 
+.column43 .btn{
+    padding: 20px;
+    font-size: 3em;
+}
+ footer {
+    color: #666;
+    background: #222;
+    padding: 17px;
+    border-top: 1px solid #000;
+    margin-top: 20px;
+    }
+footer a {
+    color: #999;
+}
+footer a:hover {
+    color: #efefef;
+}
+
